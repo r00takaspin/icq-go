@@ -7,17 +7,22 @@
 
 # Чем занимаемся? 
 
-### files.icq.com      – хранение файлов
-### go suggest        – подсказка стикером овтета
+## files.icq.com
+###### хранение файлов
+## go suggest
+###### подсказка стикером овтета
 
 ---
 
 # go suggest
 
-### подсказка при вводе текста
-### предложить  стикером
-### предложить текстом
+### подсказка стикером при вводе текста
+### предложить ответ стикером
+### предложить ответ текстом
 
+---
+
+![](https://github.com/r00takaspin/icq-go/raw/master/client.png)
 --- 
 
 # Стек
@@ -31,7 +36,7 @@
 
 # Архитектура
 
-![ style="align: center"](https://github.com/r00takaspin/icq-go/raw/master/Untitled%20Diagram.png)
+![](https://github.com/r00takaspin/icq-go/raw/master/services.png)
 
 * ipros - бинарный транспортный протокол поверх TCP
 * service discovery через внутренний сервис controller
