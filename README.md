@@ -27,7 +27,7 @@
 --- 
 
 # Стек
-## Golang, GitlabCI, RPM, Puppet
+## Golang, Gitlab, RPM, Puppet
 
 ---
 
