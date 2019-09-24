@@ -1,8 +1,8 @@
 # 💥 Интеграция go-сервисов в ICQ 💥
 
+<center>![](https://github.com/r00takaspin/icq-go/raw/master/mascot.jpg)</center>
+===
 <center>
-![](https://github.com/r00takaspin/icq-go/raw/master/mascot.jpg)
-
 ##### Вольдэмар Дулецкий, команда ICQ
 ![v.duletskiy@corp.mail.ru]v.duletskiy@corp.mail.ru
 </center>
