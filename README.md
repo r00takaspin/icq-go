@@ -89,6 +89,30 @@ func HandshakePayload(svc string, host string, cfg string) []byte {
 ![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/services.jpg)
 
 ---
+
+![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/1.png)
+
+---
+
+![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/2.png)
+
+---
+
+![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/3.png)
+
+---
+
+![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/4.png)
+
+---
+
+![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/5.png)
+
+---
+
+![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/6.png)
+
+---
 # JSON запрос
 ```
 POST /suggest HTTP/1.1
