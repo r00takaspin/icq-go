@@ -1,3 +1,9 @@
+<style>
+section {
+  font-size: 200%;
+}
+</style>
+
 ![bg left:30% 70%](https://github.com/r00takaspin/icq-go/raw/master/mascot.jpg)
 
 # <!--fit-->Интеграция go-сервисов в ICQ
@@ -151,7 +157,6 @@ message Msg {
   uint32 TS         = 3;
   string text       = 4;
 }
-
 ```
 162 байта
 
@@ -204,7 +209,6 @@ message Msg {
 ---
 
 # // TODO
-
 ```golang
 type Message struct {
     string Sender     `ipros:"sl"`
@@ -213,13 +217,11 @@ type Message struct {
     string Text       `ipros:"sl"`
 }
 
-
 type Request struct { 
    uint32 MsgType     `ipros:"."`
    string Sender      `ipros:"sl"`
    []Message Messages `ipros:"sl"`
 }
-...
 
 r := &Request{}
 ipros.Unmarshal(data, r)
@@ -235,4 +237,4 @@ ipros.Unmarshal(data, r)
 ![bg right:50% 70%](https://github.com/r00takaspin/icq-go/raw/master/qr.png)
 # <!--fit-->Спасибо!
 
-###### [https://github.com/r00takaspin/icq-go](https://github.com/r00takaspin/icq-go)
+###### <!--fit--> [https://github.com/r00takaspin/icq-go](https://github.com/r00takaspin/icq-go)
