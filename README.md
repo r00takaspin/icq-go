@@ -31,7 +31,7 @@
 # Golang, ML, ipros 
 ---
 
-![bg 80%](https://github.com/r00takaspin/icq-go/raw/master/suggest.png)
+![bg 50%](https://github.com/r00takaspin/icq-go/raw/master/suggest.png)
 
 ---
 
@@ -56,7 +56,7 @@
 
 ---
 
-![bg fit 60% ](https://github.com/r00takaspin/icq-go/raw/master/iproto.png)
+![bg fit 70%](https://github.com/r00takaspin/icq-go/raw/master/iproto.png?123)
 
 ---
 
@@ -64,7 +64,7 @@
 # <!--fit-->Содержимое пакета
 
 ---
-![bg fit 60%](https://github.com/r00takaspin/icq-go/raw/master/ds.png?1234)
+![bg fit 69%](https://github.com/r00takaspin/icq-go/raw/master/ds.png?1234)
 
 ---
 
@@ -190,7 +190,7 @@ message Msg {
 ---
 
 # Боль
-1. делой pytorch моделей, запакованных в RPM
+1. деплой ML моделей, запакованных в RPM
 1. структура ipros сообщений жестко не задается на уровне протокола
 
 ---
