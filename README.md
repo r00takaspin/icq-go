@@ -206,17 +206,17 @@ message Msg {
 
 ```golang
 type Message struct {
-    string Sender     `iproto:"sl"`
-    string Receiver   `iproto:"sl"`
-    uint32 TS         `iproto:"."`
-    string Text       `iproto:"sl"`
+    string Sender     `ipros:"sl"`
+    string Receiver   `ipros:"sl"`
+    uint32 TS         `ipros:"."`
+    string Text       `ipros:"sl"`
 }
 
 
 type Request struct { 
-   uint32 MsgType     `iproto:"."`
-   string Sender      `iproto:"sl"`
-   []Message Messages `iproto:"sl"`
+   uint32 MsgType     `ipros:"."`
+   string Sender      `ipros:"sl"`
+   []Message Messages `ipros:"sl"`
 }
 ...
 
