@@ -28,7 +28,7 @@
 # Golang, ML, ipros 
 ---
 
-![bg 80%](https://github.com/r00takaspin/icq-go/raw/master/suggest.png)
+![bg 50%](https://github.com/r00takaspin/icq-go/raw/master/suggest.png)
 
 ---
 
@@ -49,7 +49,7 @@
 
 ---
 
-![bg fit 80%](https://github.com/r00takaspin/icq-go/raw/master/iproto.png)
+![bg fit 50%](https://github.com/r00takaspin/icq-go/raw/master/iproto.png)
 
 ---
 #### Тело состоит из комбинации структур данных
@@ -86,31 +86,31 @@ func HandshakePayload(svc string, host string, cfg string) []byte {
 
 ---
 
-![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/services.jpg)
+![bg center 60%](https://github.com/r00takaspin/icq-go/raw/master/services.jpg)
 
 ---
 
-![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/1.png)
+![bg center 60%](https://github.com/r00takaspin/icq-go/raw/master/arch/1.png)
 
 ---
 
-![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/2.png)
+![bg center 60%](https://github.com/r00takaspin/icq-go/raw/master/arch/2.png)
 
 ---
 
-![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/3.png)
+![bg center 60%](https://github.com/r00takaspin/icq-go/raw/master/arch/3.png)
 
 ---
 
-![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/4.png)
+![bg center 60%](https://github.com/r00takaspin/icq-go/raw/master/arch/4.png)
 
 ---
 
-![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/5.png)
+![bg center 60%](https://github.com/r00takaspin/icq-go/raw/master/arch/5.png)
 
 ---
 
-![bg center 70%](https://github.com/r00takaspin/icq-go/raw/master/arch/6.png)
+![bg center 60%](https://github.com/r00takaspin/icq-go/raw/master/arch/6.png)
 
 ---
 # JSON запрос
