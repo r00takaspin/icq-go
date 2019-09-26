@@ -9,7 +9,10 @@
  ---
 
 # <!--fit-->Введение
-Как нам удалось за относительно небольшой срок разобраться во внутреннем бинарном протоколе, быстро запустить новый сервис подсказок и не отстрелить себе ногу.
+- Много продуктовых задач
+- Много уже существующих сервисов со сложившейся инфраструктурой
+- Задачи требуют быстрого внедрения
+- На C/C++ будет долго
 
 ---
 
@@ -49,17 +52,25 @@
 
 ---
 
-![bg fit 80%](https://github.com/r00takaspin/icq-go/raw/master/iproto.png)
+# <!--fit-->Структура пакета
 
 ---
-#### Тело состоит из комбинации структур данных
 
--  **TLV** - Tag Length Value
-- **SL** - String Length
+![bg fit 60% ](https://github.com/r00takaspin/icq-go/raw/master/iproto.png)
+
+---
+
+
+# <!--fit-->Содержимое пакета
+
+---
+![bg fit 60%](https://github.com/r00takaspin/icq-go/raw/master/ds.png?1234)
 
 ---
 
 # TLV
+
+
 ###### очень полезная структура  
 
 ---
@@ -70,11 +81,11 @@
 func HandshakePayload(svc string, host string, cfg string) []byte {
   return Concat(
      SLPack(
-	Concat(
-	  SLPack([]byte(svc)),
-	  SLPack([]byte(host)),
-	  SLPack([]byte(cfg)),
-	),
+  Concat(
+    SLPack([]byte(svc)),
+    SLPack([]byte(host)),
+    SLPack([]byte(cfg)),
+  ),
      ), PackUint32(CNFlags))
 }
 
