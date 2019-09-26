@@ -79,14 +79,11 @@
 
 ```golang
 func HandshakePayload(svc string, host string, cfg string) []byte {
-  return Concat(
-     SLPack(
-  Concat(
-    SLPack([]byte(svc)),
-    SLPack([]byte(host)),
-    SLPack([]byte(cfg)),
-  ),
-     ), PackUint32(CNFlags))
+  return TLVPack(
+       SLPack([]byte(svc)),
+       SLPack([]byte(host)),
+       SLPack([]byte(cfg)),
+  )
 }
 
 ```
