@@ -12,7 +12,7 @@
 - много продуктовых задач
 - много уже существующих сервисов со сложившейся инфраструктурой
 - задачи требуют быстрого внедрения
-- на C/C++ будет долго
+- на C/C++ долго
 
 ---
 
@@ -21,13 +21,13 @@
 ---
 
 # <!--fit--> files.icq.com
-# хранение файлов
+# __хранение файлов__
 ## PHP, Golang, MySQL, Tarantool
 
 ---
 
 # <!--fit-->go suggest
-# подсказка ответа стикером
+# __подсказка ответа стикером__
 # Golang, ML, ipros 
 ---
 
@@ -231,4 +231,7 @@ ipros.Unmarshal(data, r)
 
 ---
 
+![bg right:50% 70%](https://github.com/r00takaspin/icq-go/raw/master/qr.png)
 # <!--fit-->Спасибо!
+
+###### [https://github.com/r00takaspin/icq-go](https://github.com/r00takaspin/icq-go)
